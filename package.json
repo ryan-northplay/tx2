@@ -61,7 +61,6 @@
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "cmdk": "^0.1.21",
-    "contentlayer": "^0.2.9",
     "date-fns": "^2.29.3",
     "esbuild": "^0.17.12",
     "lucide-react": "^0.92.0",

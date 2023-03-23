@@ -67,6 +67,22 @@
     "pnpm install esbuild --save": {
       "name": "pnpm install esbuild --save",
       "command": "pnpm install esbuild --save"
+    },
+    "pnpm install esbuild --save --dev": {
+      "name": "pnpm install esbuild --save --dev",
+      "command": "pnpm install esbuild --save --dev"
+    },
+    "pnpm install contentlayer": {
+      "name": "pnpm install contentlayer",
+      "command": "pnpm install contentlayer"
+    },
+    "pnpm add next-contentlayer --save": {
+      "name": "pnpm add next-contentlayer --save",
+      "command": "pnpm add next-contentlayer --save"
+    },
+    "pnpm install next-contentlayer --save": {
+      "name": "pnpm install next-contentlayer --save",
+      "command": "pnpm install next-contentlayer --save"
     }
   }
 }
