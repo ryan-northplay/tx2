@@ -1,0 +1,72 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "pnpm dev",
+      "runAtStart": true
+    },
+    "turbo": {
+      "name": "turbo",
+      "command": "pnpm turbo",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "pnpm start",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "pnpm preview",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "pnpm postinstall",
+      "runAtStart": false
+    },
+    "npx prisma": {
+      "name": "npx prisma",
+      "command": "npx prisma"
+    },
+    "npx prisma db push": {
+      "name": "npx prisma db push",
+      "command": "npx prisma db push"
+    },
+    "prisma migrate dev": {
+      "name": "prisma migrate dev",
+      "command": "prisma migrate dev"
+    },
+    "npx prisma migrate dev": {
+      "name": "npx prisma migrate dev",
+      "command": "npx prisma migrate dev"
+    },
+    "pnpm install esbuild --sav": {
+      "name": "pnpm install esbuild --sav",
+      "command": "pnpm install esbuild --sav"
+    },
+    "pnpm install esbuild --save": {
+      "name": "pnpm install esbuild --save",
+      "command": "pnpm install esbuild --save"
+    }
+  }
+}
